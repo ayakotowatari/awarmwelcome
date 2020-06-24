@@ -1,0 +1,348 @@
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
+
+Replace password
+Confirm password
+
+Application process
+English assessment
+Courses
+Finance
+Campus life
+Accommodation
+
+
+$sql = "SELECT *
+FROM i_event 
+JOIN inst ON i_event.e_inst_id = inst.inst_id
+JOIN icntry ON inst.i_cntry_id = icntry.icntry_id
+JOIN e_lvl_map ON i_event.e_id = e_lvl_map.el_e_id
+JOIN lvl ON e_lvl_map.el_lvl_id = lvl.lvl_id
+JOIN e_sbj_map ON i_event.e_id = e_sbj_map.es_e_id
+JOIN sbj ON e_sbj_map.es_sbj_id = sbj.sbj_id
+JOIN e_rgn_map ON i_event.e_id = e_rgn_map.er_e_id
+JOIN rgn ON e_rgn_map.er_rgn_id = rgn.rgn_id";
+
+Youtube
+https://youtu.be/xqrM77F-mE4
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xqrM77F-mE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+INSERT INTO rgn
+VALUES
+(NULL, 'Africa'),
+(NULL, 'Americas'),
+(NULL, 'East Asia'),
+(NULL, 'Europe'),
+(NULL, 'Mainland China & Taiwan'),
+(NULL, 'Middle East'),
+(NULL, 'Oceania'),
+(NULL, 'South Asia'),
+(NULL, 'South East Asia'),
+(NULL, 'Turkey & CIS')
+
+Africa
+Americas
+East Asia
+Europe
+Mainland China & Taiwan
+Middle East
+Oceania
+South Asia
+South East Asia
+Turkey & CIS
+
+INSERT INTO sbj
+VALUES
+(NULL, 'Any'),
+(NULL, 'Agricultural Studies'),
+(NULL, 'Architecture, Building and Urban Planning'),
+(NULL, 'Computer and Mathematical Sciences'),
+(NULL, 'Education and Training'),
+(NULL, 'Science and Engineering'),
+(NULL, 'Health and Medicine'),
+(NULL, 'MBA'),
+(NULL, 'Social Science and Communications'),
+(NULL, 'Applied and Pure Sciences'),
+(NULL, 'Business and Administrations'),
+(NULL, 'Art and Design'),
+(NULL, 'English as Foreign Language'),
+(NULL, 'Legal Studies'),
+(NULL, 'Arts and Humanities),
+(NULL, 'Travel, Tourism and Hospitality'),
+
+Agricultural Studies
+Architecture, Building and Urban Planning
+Computer and Mathematical Sciences
+Education and Training
+Science and Engineering
+Health and Medicine
+MBA
+Social Science and Communications
+Applied and Pure Sciences
+Business and Administrations
+Art and Design
+English as Foreign Language
+Legal Studies
+Arts and Humanities
+Travel, Tourism and Hospitality
+
+INSERT INTO icntry
+VALUES
+(NULL, 'Any'),
+(NULL, 'UK'),
+(NULL, 'USA'),
+(NULL, 'Australia'),
+(NULL, 'Canada'),
+(NULL, 'New Zealand'),
+(NULL, 'Japan')
+
+
+(NULL, 'Andorra', '4')
+(NULL, 'United Arab Emirates', '6')
+(NULL, 'Afghanistan', '8')
+(NULL, 'Antigua and Barbuda', '2')
+(NULL, 'Anguilla', '2')
+(NULL, 'Albania', '4')
+(NULL, 'Armenia', '4')
+(NULL, 'Netherlands Antilles', '2')
+(NULL, 'Angola', '1')
+(NULL, 'Antarctica', '7')
+(NULL, 'Argentina', '2')
+(NULL, 'American Samoa', '7')
+(NULL, 'Austria, '4')
+(NULL, 'Australia', '7')
+(NULL, 'Aruba', '2')
+(NULL, 'Azerbaijan’, '9')
+(NULL, 'Bosnia and Herzegovina', '4')
+(NULL, 'Barbados', '2')
+(NULL, 'Bangladesh', '8')
+(NULL, 'Belgium', '4')
+(NULL, 'Burkina Faso', '1')
+(NULL, 'Bulgaria', '4')
+(NULL, 'Bahrain’, '6’)
+(NULL, 'Burundi’, '1’)
+(NULL, 'Benin’, '1’)
+(NULL, 'Bermuda’, '2’)
+(NULL, 'Brunei Darussalam’, '9’)
+(NULL, 'Bolivia’, '2')
+(NULL, 'Brazil', '2')
+(NULL, 'Bahamas', '2')
+(NULL, 'Bhutan', '8')
+(NULL, 'Bouvet Island', '2')
+(NULL, 'Botswana', '1')
+(NULL, 'Belarus', '4')
+(NULL, 'Belize', '2')
+(NULL, 'Canada', '2')
+(NULL, 'Cocos Islands', '7')
+(NULL, 'Congo, The Democratic Republic of the', '1')
+(NULL, 'Central African Republic', '1')
+(NULL, 'Congo', '1')
+(NULL, 'Switzerland', '4')
+(NULL, 'Côte D'Ivoire', '1')
+(NULL, 'Cook Islands', '7')
+(NULL, 'Chile', '2')
+(NULL, 'Cameroon', '1')
+(NULL, 'China', '5')
+(NULL, 'Colombia', '2')
+(NULL, 'Costa Rica', '2'),
+(NULL, 'Cuba', '2'),
+(NULL, 'Cape Verde', '1'),
+(NULL, 'Christmas Island', '7'),
+(NULL, 'Cyprus', '4'),
+(NULL, 'Czech Republic', '4'),
+(NULL, 'Germany', '4'),
+(NULL, 'Djibouti', '6'),
+(NULL, 'Denmark', '4'),
+(NULL, 'Dominica', '2'),
+(NULL, 'Dominican Republic', '2'),
+(NULL, 'Algeria', '6'),
+(NULL, 'Ecuador', '2'),
+(NULL, 'Estonia', '4'),
+(NULL, 'Egypt', '6'),
+(NULL, 'Western Sahara', '1'),
+(NULL, 'Eritrea', '1'),
+(NULL, 'Spain', '4'),
+(NULL, 'Ethiopia', '1'),
+(NULL, 'Finland', '4'),
+(NULL, 'Fiji', '7'),
+(NULL, 'Falkland Islands (Malvinas)', '2'),
+(NULL, 'Micronesia, Federated States of', '7'),
+(NULL, 'Faroe Islands', '4'),
+(NULL, 'France', '4'),
+(NULL, 'France, Metropolitan', '4'),
+(NULL, 'Gabon', '1'),
+(NULL, 'United Kingdom', '4'),
+(NULL, 'Grenada', '2'),
+(NULL, 'Georgia', '4'),
+(NULL, 'French Guiana', '2'),
+(NULL, 'Ghana', '1'),
+(NULL, 'Gibraltar', '4'),
+(NULL, 'Greenland', '4'),
+(NULL, 'Gambia', '1'),
+(NULL, 'Guinea', '1'),
+(NULL, 'Guadeloupe', '2'),
+(NULL, 'Equatorial Guinea', '1'),
+(NULL, 'Greece', '4'),
+(NULL, 'South Georgia and the South Sandwich Islands', '2'),
+(NULL, 'Guatemala', '2'),
+(NULL, 'Guam', '7'),
+(NULL, 'Guinea-Bissau', '1'),
+(NULL, 'Guyana', '2'),
+(NULL, 'Hong Kong', '3'),
+(NULL, 'Heard Island and McDonald Islands', '7'),
+(NULL, 'Honduras', '2'),
+(NULL, 'Croatia', '4'),
+(NULL, 'Haiti', '2'),
+(NULL, 'Hungary', '4'),
+(NULL, 'Indonesia', '9'),
+(NULL, 'Ireland', '4'),
+(NULL, 'Israel', '4'),
+(NULL, 'India', '8'),
+(NULL, 'British Indian Ocean Territory', '8'),
+(NULL, 'Iraq', '6'),
+(NULL, 'Iran, Islamic Republic of', '6'),
+(NULL, 'Iceland', '4'),
+(NULL, 'Italy', '4'),
+(NULL, 'Jamaica', '2'),
+(NULL, 'Jordan', '6'),
+(NULL, 'Japan', ''3'),
+(NULL, 'Kenya', '1'),
+(NULL, 'Kyrgyzstan', '10'),
+(NULL, 'Cambodia', '9'),
+(NULL, 'Kiribati', '7'),
+(NULL, 'Comoros', '6'),
+(NULL, 'Saint Kitts and Nevis', '2'),
+(NULL, 'Korea, Democratic People's Republic of', '3'),
+(NULL, 'Korea, Republic of', '3'),
+(NULL, 'Kuwait', '6'),
+(NULL, 'Cayman Islands', '2'),
+(NULL, 'Kazakhstan', '10'),
+(NULL, 'Lao People's Democratic Republic', '9'),
+(NULL, 'Lebanon', '6'),
+(NULL, 'Saint Lucia', '2'),
+(NULL, 'Liechtenstein', '4'),
+(NULL, 'Sri Lanka', '8'),
+(NULL, 'Liberia', '1'),
+(NULL, 'Lesotho', '1'),
+(NULL, 'Lithuania', '4'),
+(NULL, 'Luxembourg', '4'),
+(NULL, 'Latvia', '4'),
+(NULL, 'Libya', '6'),
+(NULL, 'Morocco', '1'),
+(NULL, 'Monaco', '4'),
+(NULL, 'Moldova, Republic of', '4'),
+(NULL, 'Madagascar', '1'),
+(NULL, 'Marshall Islands', '7'),
+(NULL, 'Macedonia', '4'),ココ
+
+(NULL, 'Mali', '1')
+(NULL, 'Myanmar', '9')
+(NULL, 'Mongolia	, '	3	)
+(NULL, 'Macau	, '	3	)
+(NULL, 'Northern Mariana Islands	, '	7	)
+(NULL, 'Martinique	, '	2	)
+(NULL, 'Mauritania	, '	1	)
+(NULL, 'Montserrat	, '	2	)
+(NULL, 'Malta	, '	4	)
+(NULL, 'Mauritius	, '	1	)
+(NULL, 'Maldives	, '	7	)
+(NULL, 'Malawi	, '	1	)
+(NULL, 'Mexico	, '	2	)
+(NULL, 'Malaysia	, '	9	)
+(NULL, 'Mozambique	, '	1	)
+(NULL, 'Namibia	, '	1	)
+(NULL, 'New Caledonia	, '	7	)
+(NULL, 'Niger	, '	1	)
+(NULL, 'Norfolk Island	, '	7	)
+(NULL, 'Nigeria	, '	1	)
+(NULL, 'Nicaragua	, '	2	)
+(NULL, 'Netherlands	, '	4	)
+(NULL, 'Norway	, '	4	)
+(NULL, 'Nepal	, '	8	)
+(NULL, 'Nauru	, '	7	)
+(NULL, 'Niue	, '	7	)
+(NULL, 'New Zealand	, '	7	)
+(NULL, 'Oman	, '	6	)
+(NULL, 'Panama	, '	2	)
+(NULL, 'Peru	, '	2	)
+(NULL, 'French Polynesia	, '	7	)
+(NULL, 'Papua New Guinea	, '	7	)
+(NULL, 'Philippines	, '	9	)
+(NULL, 'Pakistan	, '	8	)
+(NULL, 'Poland	, '	4	)
+(NULL, 'Saint Pierre and Miquelon	, '	2	)
+(NULL, 'Pitcairn Islands	, '	7	)
+(NULL, 'Puerto Rico	, '	2	)
+(NULL, 'Palestinian Territory	, '	6	)
+(NULL, 'Portugal	, '	4	)
+(NULL, 'Palau	, '	7	)
+(NULL, 'Paraguay	, '	2	)
+(NULL, 'Qatar	, '	6	)
+(NULL, 'Reunion	, '	7	)
+(NULL, 'Romania	, '	4	)
+(NULL, 'Russian Federation	, '	4	)
+(NULL, 'Rwanda	, '	1	)
+(NULL, 'Saudi Arabia	, '	6	)
+(NULL, '	Solomon Islands	, '	7	)
+(NULL, '	Seychelles	, '	1	)
+(NULL, '	South Sudan	, '	1	)
+(NULL, '	Sudan	, '	1	)
+(NULL, '	Sweden	, '	4	)
+(NULL, '	Singapore	, '	9	)
+(NULL, '	Saint Helena	, '	1	)
+(NULL, '	Slovenia	, '	4	)
+(NULL, '	Svalbard and Jan Mayen	, '	4	)
+(NULL, '	Slovakia	, '	4	)
+(NULL, '	Sierra Leone	, '	1	)
+(NULL, '	San Marino	, '	4	)
+(NULL, '	Senegal	, '	1	)
+(NULL, '	Somalia	, '	1	)
+(NULL, '	Suriname	, '	2	)
+(NULL, '	Sao Tome and Principe	, '	1	)
+(NULL, '	El Salvador	, '	2	)
+(NULL, '	Syrian Arab Republic	, '	6	)
+(NULL, '	Swaziland	, '	1	)
+(NULL, '	Turks and Caicos Islands	, '	2	)
+(NULL, '	Chad	, '	1	)
+(NULL, '	French Southern Territories	, '	7	)
+(NULL, '	Togo	, '	1	)
+(NULL, '	Thailand	, '	9	)
+(NULL, '	Tajikistan	, '	10	)
+(NULL, '	Tokelau	, '	7	)
+(NULL, '	Turkmenistan	, '	10	)
+(NULL, '	Tunisia	, '	1	)
+(NULL, '	Tonga	, '	7	)
+(NULL, '	Timor-Leste	, '	9	)
+(NULL, '	Turkey	, '	4	)
+(NULL, '	Trinidad and Tobago	, '	2	)
+(NULL, '	Tuvalu	, '	7	)
+(NULL, '	Taiwan	, '	5	)
+(NULL, '	Tanzania, United Republic of	, '	1	)
+(NULL, '	Ukraine	, '	4	)
+(NULL, '	Uganda	, '	1	)
+(NULL, '	United States Minor Outlying Islands	, '	7	)
+(NULL, '	United States	, '	2	)
+(NULL, '	Uruguay	, '	2	)
+(NULL, '	Uzbekistan	, '	10	)
+(NULL, '	Holy See (Vatican City State)	, '	4	)
+(NULL, '	Saint Vincent and the Grenadines	, '	2	)
+(NULL, '	Venezuela	, '	2	)
+(NULL, '	Virgin Islands, British	, '	2	)
+(NULL, '	Virgin Islands, U.S.	, '	2	)
+(NULL, '	Vietnam	, '	9	)
+(NULL, '	Vanuatu	, '	7	)
+(NULL, '	Wallis and Futuna	, '	7	)
+(NULL, '	Samoa	, '	7	)
+(NULL, '	Yemen	, '	6	)
+(NULL, '	Mayotte	, '	1	)
+(NULL, '	Serbia	, '	4	)
+(NULL, '	South Africa	, '	1	)
+(NULL, '	Zambia	, '	1	)
+(NULL, '	Montenegro	, '	4	)
+(NULL, '	Zimbabwe	, '	1	)
+(NULL, '	Aland Islands	, '	4	)
+(NULL, '	Guernsey	, '	4	)
+(NULL, '	Isle of Man	, '	4	)
+(NULL, '	Jersey	, '	4	)
+(NULL, '	Saint Barthelemy	, '	2	)
+(NULL, '	Saint Martin	, '	2	)
